@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f4e3;
+    color: #333;
+}
+header {
+    background-color: #004369;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #fdb827;
+    padding: 15px;
+}
+nav a {
+    text-decoration: none;
+    color: #004369;
+    padding: 15px 25px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+nav a:hover {
+    background-color: #f15152;
+    color: white;
+    border-radius: 5px;
+}
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+.about {
+    background: linear-gradient(45deg, #f15152, #fdb827, #004369);
+    color: white;
+}
+.poetry, .store {
+    background-color: #ffffff;
+}
