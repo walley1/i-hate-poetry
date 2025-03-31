@@ -1,56 +1,44 @@
 body {
-    font-family: 'Garamond', serif;
+    background-color: white;
+    font-family: 'Georgia', serif;
+    text-align: center;
+}
+
+.poem {
+    white-space: pre-wrap;
+    display: inline-block;
     margin: 0;
-    padding: 0;
-    background-color: #1a1a1a;
-    color: #e0e0e0;
-}
-
-header {
-    background-color: #333333;
-    color: #e0e0e0;
-    text-align: center;
     padding: 20px;
-    font-size: 28px;
-    font-weight: bold;
-    font-family: 'Cinzel', serif;
+    font-size: 12px;
+    line-height: 1.2;
 }
 
-nav {
-    display: flex;
-    justify-content: center;
-    background-color: #444444;
-    padding: 15px;
+.penis {
+    margin-left: 50%;
+    transform: translateX(-50%);
 }
 
-nav a {
-    text-decoration: none;
-    color: #e0e0e0;
-    padding: 15px 25px;
-    font-weight: bold;
-    transition: 0.3s;
+.head {
+    width: 100px;
+    height: 50px;
+    background-color: #f8d5d0;
+    border-radius: 50% 50% 0 0;
+    display: inline-block;
 }
 
-nav a:hover {
-    background-color: #f15152;
-    color: white;
-    border-radius: 5px;
+.body {
+    width: 30px;
+    height: 150px;
+    background-color: #f8d5d0;
+    display: inline-block;
 }
 
-.section {
-    padding: 60px 20px;
-    text-align: center;
-}
-
-.about {
-    background-color: #222222;
-    color: #e0e0e0;
-}
-
-.poetry {
-    background-color: #333333;
-}
-
-.store {
-    background-color: #444444;
+.balls {
+    width: 80px;
+    height: 40px;
+    background-color: #f8d5d0;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
 }
