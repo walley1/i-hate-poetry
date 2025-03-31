@@ -1,44 +1,56 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Garamond', serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f4e3;
-    color: #333;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
 }
+
 header {
-    background-color: #004369;
-    color: white;
+    background-color: #333333;
+    color: #e0e0e0;
     text-align: center;
     padding: 20px;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bold;
+    font-family: 'Cinzel', serif;
 }
+
 nav {
     display: flex;
     justify-content: center;
-    background-color: #fdb827;
+    background-color: #444444;
     padding: 15px;
 }
+
 nav a {
     text-decoration: none;
-    color: #004369;
+    color: #e0e0e0;
     padding: 15px 25px;
     font-weight: bold;
     transition: 0.3s;
 }
+
 nav a:hover {
     background-color: #f15152;
     color: white;
     border-radius: 5px;
 }
+
 .section {
     padding: 60px 20px;
     text-align: center;
 }
+
 .about {
-    background: linear-gradient(45deg, #f15152, #fdb827, #004369);
-    color: white;
+    background-color: #222222;
+    color: #e0e0e0;
 }
-.poetry, .store {
-    background-color: #ffffff;
+
+.poetry {
+    background-color: #333333;
+}
+
+.store {
+    background-color: #444444;
 }
