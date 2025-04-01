@@ -1,102 +1,43 @@
 body {
-    background-color: white;
+    background-color: #1a1a1a;
     font-family: 'Georgia', serif;
+    color: #e0e0e0;
     text-align: center;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+h2 {
+    font-family: 'Old English Text MT', cursive;
+    color: #ff0000;
+    text-shadow: 2px 2px #000;
 }
 
 .poem {
-    white-space: pre-wrap;
-    display: inline-block;
-    margin: 0;
+    background-color: #333333;
+    border: 2px solid #ff0000;
+    border-radius: 10px;
     padding: 20px;
-    font-size: 12px;
-    line-height: 1.2;
-}
-
-.penis {
-    margin-left: 50%;
-    transform: translateX(-50%);
-}
-
-.head {
-    width: 100px;
-    height: 50px;
-    background-color: #f8d5d0;
-    border-radius: 50% 50% 0 0;
     display: inline-block;
-}
-
-.body {
-    width: 30px;
-    height: 150px;
-    background-color: #f8d5d0;
-    display: inline-block;
-}
-
-.balls {
-    width: 80px;
-    height: 40px;
-    background-color: #f8d5d0;
-    border-radius: 50%;
-    display: inline-block;
+    max-width: 600px;
     position: relative;
-    bottom: 10px;
+    overflow: hidden;
 }
 
-header {
-     background-color: #004369;
-     color: white;
-     background-color: #333333;
-     color: #e0e0e0;
-     text-align: center;
-     padding: 20px;
-     font-size: 24px;
-     font-size: 28px;
-     font-weight: bold;
-     font-family: 'Cinzel', serif;
- }
- 
- nav {
-     display: flex;
-     justify-content: center;
-     background-color: #fdb827;
-     background-color: #444444;
-     padding: 15px;
- }
- 
- nav a {
-     text-decoration: none;
-     color: #004369;
-     color: #e0e0e0;
-     padding: 15px 25px;
-     font-weight: bold;
-     transition: 0.3s;
- }
- 
- nav a:hover {
-     background-color: #f15152;
-     color: white;
-     border-radius: 5px;
- }
- 
- .section {
-     padding: 60px 20px;
-     text-align: center;
- }
- 
- .about {
-     background: linear-gradient(45deg, #f15152, #fdb827, #004369);
-     color: white;
-     background-color: #222222;
-     color: #e0e0e0;
- }
- 
- .poetry {
-     background-color: #333333;
- }
- .poetry, .store {
-     background-color: #ffffff;
- 
- .store {
-     background-color: #444444;
- }
+.poem::before {
+    content: '';
+    background-image: url('path/to/barbed-wire-image.jpg'); /* Replace with actual image path */
+    background-size: cover;
+    opacity: 0.1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+}
+
+.poem p {
+    position: relative;
+    z-index: 1;
+}
