@@ -12,6 +12,13 @@ h2 {
     color: #ff0000;
     text-shadow: 2px 2px #000;
 }
+header {
+    font-family: 'Georgia', serif;
+    color: #ff0000;
+    text-shadow: 2px 2px #000;
+}
+
+
 
 poem {
     background-color: #333333;
