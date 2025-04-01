@@ -13,7 +13,7 @@ h2 {
     text-shadow: 2px 2px #000;
 }
 
-.poem {
+poem {
     background-color: #333333;
     border: 2px solid #ff0000;
     border-radius: 10px;
@@ -24,7 +24,7 @@ h2 {
     overflow: hidden;
 }
 
-.poem::before {
+poem::before {
     content: '';
     background-image: url('path/to/barbed-wire-image.jpg'); /* Replace with actual image path */
     background-size: cover;
@@ -37,7 +37,7 @@ h2 {
     z-index: 0;
 }
 
-.poem p {
+poem p {
     position: relative;
     z-index: 1;
 }
